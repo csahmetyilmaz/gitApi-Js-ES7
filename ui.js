@@ -70,11 +70,11 @@ class UI {
                         </div>
                         <div class="col-md-6">
                             <button class="btn btn-secondary">
-                                Starlar  <span class="badge badge-light" id="repoStar">${repo.stargazers_count}</span>
+                                Stars  <span class="badge badge-light" id="repoStar">${repo.stargazers_count}</span>
                             </button>
 
                             <button class="btn btn-info">
-                                Forklar  <span class="badge badge-light" id ="repoFork">${repo.forks_count}</span>
+                                Forks  <span class="badge badge-light" id ="repoFork">${repo.forks_count}</span>
                             </button>
                     
                         </div>

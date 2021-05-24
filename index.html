@@ -18,12 +18,12 @@
    
     <div class="container searchContainer">
         <div class="search card card-body">
-            <h3>Github Kullanıcılarını Arayın</h3>
+            <h3>Github user search</h3>
             <p class="lead">
-                Bir kullanıcı adı girin ve kullanıcının bilgilerine ulaşın!
+                Enter the username and get all public information!
             </p>
             <form id = "github-form">
-                <input type="text" name="githubname" id="githubname" class = "form-control" placeholder="Github Kullanıcı adı">
+                <input type="text" name="githubname" id="githubname" class = "form-control" placeholder="enter github username">
                 <br>
                 <button type = "submit" class ="btn btn-dark">Ara</button>
             </form>
@@ -79,7 +79,7 @@
 
 
             
-            <h3 class="page-heading mb-3">En son repolar</h3>
+            <h3 class="page-heading mb-3">Recent repos</h3>
             <div id="repos">
                  
                  <!-- <div class="mb-2 card-body">
@@ -90,11 +90,11 @@
                         </div>
                         <div class="col-md-6">
                             <button class="btn btn-secondary">
-                                Starlar  <span class="badge badge-light" id="repoStar"></span>
+                                Stars  <span class="badge badge-light" id="repoStar"></span>
                             </button>
 
                             <button class="btn btn-info">
-                                Forklar  <span class="badge badge-light" id ="repoFork"></span>
+                                Forks  <span class="badge badge-light" id ="repoFork"></span>
                             </button>
                     
                         </div>
@@ -104,14 +104,14 @@
                 
             </div>
 
-            <h3 class="page-heading mb-3">Son Aramalar</h3>
+            <h3 class="page-heading mb-3">Recent searches</h3>
             
             <div id="lastSearch" style ="margin-bottom: 100px;">
                 <ul class ="list-group" id = "last-users">
                     <!-- <li class="list-group-item">asdaskdjkasjkşdjşasjd</li> -->
                 </ul>
                 <hr>
-                <button id ="clear-last-users" class="btn btn-dark">Son Arananları Temizle</button>
+                <button id ="clear-last-users" class="btn btn-dark">Clear recent searchs</button>
                 
             </div>
                 
